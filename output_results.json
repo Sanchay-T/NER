@@ -1,0 +1,26 @@
+[
+  {
+    "filename": "Axis 1-12-22 to 30-11-23.pdf",
+    "timestamp": "2024-11-05T16:19:09.395812",
+    "metadata": {
+      "account_number": "Statement",
+      "person_name": "",
+      "file_path": "/Users/sanchaythalnerkar/NER/Axis 1-12-22 to 30-11-23.pdf"
+    },
+    "entities": [
+      {
+        "text": "FARHEEN ENGINEERING WORKs Joint Holder",
+        "label": "PER",
+        "start_char": 0,
+        "end_char": 38
+      },
+      {
+        "text": "922020023522300",
+        "label": "ACC NO",
+        "start_char": 327,
+        "end_char": 342
+      }
+    ],
+    "error": null
+  }
+]

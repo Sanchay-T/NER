@@ -145,57 +145,67 @@ class PDFProcessor:
 
     def _extract_text_from_pdf(self, pdf_path: Path) -> Dict:
         try:
-            print(f"Starting to process PDF: {pdf_path}")
-            
-            doc = fitz.open(pdf_path)
-            first_page = doc[0]
-            first_page_text = first_page.get_text()
-            doc.close()
-            
-            table_indicators = [
-                r"Date\s+Dr Amount\s+Cr Amount\s+Total Amount",  
-                r"Date\s+Particulars\s+Instruments",  
-                r"\d{2}[-/]\d{2}[-/]\d{4}\s+\d+\.\d{2}\s+",  
-                r"Opening Balance.*?Closing Balance",
-                r"Transaction Details:"
+            # Extract full text
+            text = ""
+            with fitz.open(pdf_path) as doc:
+                if doc.is_encrypted:
+                    raise fitz.FileDataError("PDF is password protected")
+                for page_num in range(len(doc)):
+                    page = doc.load_page(page_num)
+                    text += page.get_text("text") + "\n"
+
+            # Find where the table starts
+            table_patterns = [
+                r"^\s*(Tran|Transaction|Date|Particulars|Value|Ref|Amount|Debit|Credit|Balance)",
+                r"^\s*\d{1,2}-\d{1,2}-\d{2,4}",
+                r"^-{3,}",
             ]
 
-            # Find where table starts
-            table_start_pos = len(first_page_text)
-            matched_pattern = None
-            
-            for pattern in table_indicators:
-                match = re.search(pattern, first_page_text, re.IGNORECASE | re.MULTILINE)
-                if match and match.start() < table_start_pos:
-                    table_start_pos = match.start()
-                    matched_pattern = pattern
-                    print(f"Found table start with pattern: {pattern}")
-                    print(f"At position: {table_start_pos}")
-                    print(f"Text around match point:\n{first_page_text[max(0, table_start_pos-50):table_start_pos+50]}")
+            # Find earliest table indicator
+            split_position = len(text)
+            for pattern in table_patterns:
+                match = re.search(pattern, text, re.MULTILINE)
+                if match and match.start() < split_position:
+                    split_position = match.start()
 
-            # Get header content
-            header_content = first_page_text[:table_start_pos].strip()
+            # Extract header content (pre-table text)
+            header_content = text[:split_position].strip()
+
+            # Extract account number and person name for metadata (but don't remove from text!)
+            account_pattern = re.compile(r'\bAccount\s*(No|Number)?\s*[:\-]?\s*(\S+)', re.IGNORECASE)
+            name_pattern = re.compile(r'\bName\s*[:\-]?\s*(.+)', re.IGNORECASE)
             
-            # Create output directory and save
+            account_match = account_pattern.search(header_content)
+            name_match = name_pattern.search(header_content)
+            
+            account_number = account_match.group(2) if account_match else ""
+            person_name = name_match.group(1).strip() if name_match else ""
+
+            # Only clean extra whitespace and non-printable chars
+            preprocessed_text = header_content
+            preprocessed_text = re.sub(r'\s+', ' ', preprocessed_text).strip()
+            preprocessed_text = re.sub(r'[^\x20-\x7E\n]', '', preprocessed_text)
+
+            # Save the preprocessed text (with names and account numbers intact)
             output_dir = Path("extracted_text")
             output_dir.mkdir(exist_ok=True)
             text_file_path = output_dir / f"{pdf_path.stem}_header.txt"
             
             with open(text_file_path, 'w', encoding='utf-8') as f:
-                f.write(header_content)
-            
-            print(f"\nExtracted header length: {len(header_content)}")
-            print(f"First 100 chars: {header_content[:100]}")
-            print(f"Last 100 chars: {header_content[-100:]}")
-            
+                f.write(preprocessed_text)
+
             return {
                 "raw_text": header_content,
-                "preprocessed_text": header_content,
-                "account_number": "",
-                "person_name": "",
-                "extracted_file_path": str(text_file_path)
+                "preprocessed_text": preprocessed_text,
+                "account_number": account_number,
+                "person_name": person_name,
+                "header_text": preprocessed_text,
+                "header_file_path": str(text_file_path)
             }
-                
+
+        except fitz.FileDataError as e:
+            if "password protected" in str(e).lower():
+                return {"error": "Password Protected"}
+            return {"error": str(e)}
         except Exception as e:
-            print(f"Error occurred: {str(e)}")
             return {"error": f"Failed to extract text from PDF: {str(e)}"}
