@@ -1,0 +1,206 @@
+{
+  "Total PDFs Processed": 20,
+  "Successfully Processed": 20,
+  "Failed": 0,
+  "Banks Processed": 16,
+  "Success Rate": "100.00%",
+  "Entity Statistics": {
+    "PERSON (PER)": {
+      "Found": 7,
+      "Missing": 13,
+      "Success Rate": "35.00%"
+    },
+    "ACCOUNT NUMBER (ACC NO)": {
+      "Found": 8,
+      "Missing": 12,
+      "Success Rate": "40.00%"
+    }
+  },
+  "Missing PERSON in Files": [
+    "AXIS_STATEMENT_CLOSURE_X940.pdf",
+    "Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf",
+    "IDBI APRL.pdf",
+    "AccountStatement_Evolve - 2023-12-27T134118.679.pdf",
+    "Bharat_Balaji_1Jan24_23Feb24.pdf",
+    "Apr-22 SC Bank Statement.pdf",
+    "IDFCFIRSTBankstatement_10083065412_155547128.pdf",
+    "27JAN24_23FEB24_HDFC_BALAJI.pdf",
+    "yesbank.pdf",
+    "Copy of ICICI 9727 acc statement.pdf",
+    "BCCB-1 (1).pdf",
+    "Canara 2 format .pdf",
+    "BASSEIN CATHOLIC.pdf"
+  ],
+  "Missing ACCOUNT NUMBER in Files": [
+    "AXIS_STATEMENT_CLOSURE_X940.pdf",
+    "Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf",
+    "IDBI APRL.pdf",
+    "AccountStatement_Evolve - 2023-12-27T134118.679.pdf",
+    "Mar-24.pdf",
+    "Apr-22 SC Bank Statement.pdf",
+    "IDFCFIRSTBankstatement_10083065412_155547128.pdf",
+    "Copy of pnbbank.pdf",
+    "27JAN24_23FEB24_HDFC_BALAJI.pdf",
+    "Copy of ICICI 9727 acc statement.pdf",
+    "Canara 2 format .pdf",
+    "BASSEIN CATHOLIC.pdf"
+  ],
+  "Low Confidence Matches (≤80%)": [
+    {
+      "file": "Copy of Copy of NKGSB.pdf",
+      "entity": "PER",
+      "text": "MRS. SHAMLATA R POOJARY",
+      "confidence": null
+    },
+    {
+      "file": "Copy of Copy of NKGSB.pdf",
+      "entity": "ACC NO",
+      "text": "062100100002395",
+      "confidence": null
+    },
+    {
+      "file": "Bharat_Balaji_1Jan24_23Feb24.pdf",
+      "entity": "ACC NO",
+      "text": "001712100018010",
+      "confidence": null
+    },
+    {
+      "file": "Mar-24.pdf",
+      "entity": "PER",
+      "text": "Mr. RAHUL HANAMANT PALEKAR",
+      "confidence": null
+    },
+    {
+      "file": "Copy of Copy of Bank Statement Union Bank Dec.pdf",
+      "entity": "PER",
+      "text": "HONEST GIFTS SOLUTIONS A 502",
+      "confidence": null
+    },
+    {
+      "file": "Copy of Copy of Bank Statement Union Bank Dec.pdf",
+      "entity": "ACC NO",
+      "text": "049721010000019",
+      "confidence": null
+    },
+    {
+      "file": "Copy of pnbbank.pdf",
+      "entity": "PER",
+      "text": "AAREY MILK CENTER Joint Account",
+      "confidence": null
+    },
+    {
+      "file": "bom.pdf",
+      "entity": "PER",
+      "text": "Mrs. CHAYA ARVIND ZAVERI Customer Details Name NIKHIL",
+      "confidence": null
+    },
+    {
+      "file": "bom.pdf",
+      "entity": "ACC NO",
+      "text": "68001042525",
+      "confidence": null
+    },
+    {
+      "file": "yesbank.pdf",
+      "entity": "ACC NO",
+      "text": "007891900017804",
+      "confidence": null
+    },
+    {
+      "file": "Yes bank (1).pdf",
+      "entity": "PER",
+      "text": "SUJAYA BANERJEE",
+      "confidence": null
+    },
+    {
+      "file": "Yes bank (1).pdf",
+      "entity": "ACC NO",
+      "text": "000191600000324",
+      "confidence": null
+    },
+    {
+      "file": "Copy of Copy of TJSB.pdf",
+      "entity": "PER",
+      "text": "CHAURASIYA RAMESH RAMDEEN 15 Digit",
+      "confidence": null
+    },
+    {
+      "file": "Copy of Copy of TJSB.pdf",
+      "entity": "ACC NO",
+      "text": "230101100135215890",
+      "confidence": null
+    },
+    {
+      "file": "BCCB-1 (1).pdf",
+      "entity": "ACC NO",
+      "text": "010100100018080",
+      "confidence": null
+    }
+  ],
+  "Extracted Entities": {
+    "PERSON": [
+      {
+        "file": "Copy of Copy of NKGSB.pdf",
+        "text": "MRS. SHAMLATA R POOJARY"
+      },
+      {
+        "file": "Mar-24.pdf",
+        "text": "Mr. RAHUL HANAMANT PALEKAR"
+      },
+      {
+        "file": "Copy of Copy of Bank Statement Union Bank Dec.pdf",
+        "text": "HONEST GIFTS SOLUTIONS A 502"
+      },
+      {
+        "file": "Copy of pnbbank.pdf",
+        "text": "AAREY MILK CENTER Joint Account"
+      },
+      {
+        "file": "bom.pdf",
+        "text": "Mrs. CHAYA ARVIND ZAVERI Customer Details Name NIKHIL"
+      },
+      {
+        "file": "Yes bank (1).pdf",
+        "text": "SUJAYA BANERJEE"
+      },
+      {
+        "file": "Copy of Copy of TJSB.pdf",
+        "text": "CHAURASIYA RAMESH RAMDEEN 15 Digit"
+      }
+    ],
+    "ACCOUNT NUMBER": [
+      {
+        "file": "Copy of Copy of NKGSB.pdf",
+        "text": "062100100002395"
+      },
+      {
+        "file": "Bharat_Balaji_1Jan24_23Feb24.pdf",
+        "text": "001712100018010"
+      },
+      {
+        "file": "Copy of Copy of Bank Statement Union Bank Dec.pdf",
+        "text": "049721010000019"
+      },
+      {
+        "file": "bom.pdf",
+        "text": "68001042525"
+      },
+      {
+        "file": "yesbank.pdf",
+        "text": "007891900017804"
+      },
+      {
+        "file": "Yes bank (1).pdf",
+        "text": "000191600000324"
+      },
+      {
+        "file": "Copy of Copy of TJSB.pdf",
+        "text": "230101100135215890"
+      },
+      {
+        "file": "BCCB-1 (1).pdf",
+        "text": "010100100018080"
+      }
+    ]
+  }
+}

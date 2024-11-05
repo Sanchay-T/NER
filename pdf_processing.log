@@ -1,0 +1,120 @@
+2024-11-05 20:39:10,236 - INFO - Processing bank folder: AXIS_BANK
+2024-11-05 20:39:10,273 - INFO - Successfully processed: AXIS_STATEMENT_CLOSURE_X940.pdf
+2024-11-05 20:39:10,284 - INFO - Successfully processed: Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf
+2024-11-05 20:39:10,284 - INFO - Processing bank folder: NKGSB_BANK
+2024-11-05 20:39:10,312 - INFO - Successfully processed: Copy of Copy of NKGSB.pdf
+2024-11-05 20:39:10,312 - INFO - Processing bank folder: BOI_BANK
+2024-11-05 20:39:10,314 - WARNING - Skipping password-protected PDF: 1602202413233700_97675273.pdf
+2024-11-05 20:39:10,314 - INFO - Processing bank folder: IDBI_BANK
+2024-11-05 20:39:10,317 - INFO - Successfully processed: IDBI APRL.pdf
+2024-11-05 20:39:10,317 - INFO - Processing bank folder: BHARAT_BALAJI_BANK
+2024-11-05 20:39:10,331 - INFO - Successfully processed: AccountStatement_Evolve - 2023-12-27T134118.679.pdf
+2024-11-05 20:39:10,381 - INFO - Successfully processed: Bharat_Balaji_1Jan24_23Feb24.pdf
+2024-11-05 20:39:10,381 - INFO - Processing bank folder: SBI_BANK
+2024-11-05 20:39:10,388 - INFO - Successfully processed: Mar-24.pdf
+2024-11-05 20:39:10,388 - INFO - Processing bank folder: SC_BANK
+2024-11-05 20:39:10,449 - INFO - Successfully processed: Apr-22 SC Bank Statement.pdf
+2024-11-05 20:39:10,449 - INFO - Processing bank folder: Union_BANK
+2024-11-05 20:39:10,460 - INFO - Successfully processed: Copy of Copy of Bank Statement Union Bank Dec.pdf
+2024-11-05 20:39:10,460 - INFO - Processing bank folder: IDFC_BANK
+2024-11-05 20:39:10,473 - INFO - Successfully processed: IDFCFIRSTBankstatement_10083065412_155547128.pdf
+2024-11-05 20:39:10,473 - INFO - Processing bank folder: PNB_BANK
+2024-11-05 20:39:10,497 - INFO - Successfully processed: Copy of pnbbank.pdf
+2024-11-05 20:39:10,497 - INFO - Processing bank folder: HDFC_BANK
+2024-11-05 20:39:10,506 - INFO - Successfully processed: 27JAN24_23FEB24_HDFC_BALAJI.pdf
+2024-11-05 20:39:10,506 - INFO - Processing bank folder: BOM_BANK
+2024-11-05 20:39:10,514 - INFO - Successfully processed: bom.pdf
+2024-11-05 20:39:10,514 - INFO - Processing bank folder: YES_BANK
+2024-11-05 20:39:10,523 - INFO - Successfully processed: yesbank.pdf
+2024-11-05 20:39:10,549 - INFO - Successfully processed: Yes bank (1).pdf
+2024-11-05 20:39:10,549 - INFO - Processing bank folder: ICICI_BANK
+2024-11-05 20:39:10,550 - WARNING - Skipping password-protected PDF: Statement_DEC2023_777705907080.pdf
+2024-11-05 20:39:10,558 - INFO - Successfully processed: Copy of ICICI 9727 acc statement.pdf
+2024-11-05 20:39:10,558 - INFO - Processing bank folder: TJSB_BANK
+2024-11-05 20:39:10,566 - INFO - Successfully processed: Copy of Copy of TJSB.pdf
+2024-11-05 20:39:10,566 - INFO - Processing bank folder: Canara_BANK
+2024-11-05 20:39:10,571 - INFO - Successfully processed: BCCB-1 (1).pdf
+2024-11-05 20:39:10,582 - INFO - Successfully processed: Canara 2 format .pdf
+2024-11-05 20:39:10,582 - INFO - Processing bank folder: BASSEIN_CATHOLIC_BANK
+2024-11-05 20:39:10,655 - INFO - Successfully processed: BASSEIN CATHOLIC.pdf
+2024-11-05 20:39:10,655 - INFO - Processing bank folder: KOTAK_BANK
+2024-11-05 20:43:21,722 - INFO - Processing bank folder: AXIS_BANK
+2024-11-05 20:43:21,761 - INFO - Successfully processed: AXIS_STATEMENT_CLOSURE_X940.pdf
+2024-11-05 20:43:21,773 - INFO - Successfully processed: Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf
+2024-11-05 20:43:21,773 - INFO - Processing bank folder: NKGSB_BANK
+2024-11-05 20:43:21,800 - INFO - Successfully processed: Copy of Copy of NKGSB.pdf
+2024-11-05 20:43:21,800 - INFO - Processing bank folder: BOI_BANK
+2024-11-05 20:43:21,801 - WARNING - Skipping password-protected PDF: 1602202413233700_97675273.pdf
+2024-11-05 20:43:21,801 - INFO - Processing bank folder: IDBI_BANK
+2024-11-05 20:43:21,805 - INFO - Successfully processed: IDBI APRL.pdf
+2024-11-05 20:43:21,805 - INFO - Processing bank folder: BHARAT_BALAJI_BANK
+2024-11-05 20:43:21,819 - INFO - Successfully processed: AccountStatement_Evolve - 2023-12-27T134118.679.pdf
+2024-11-05 20:43:21,869 - INFO - Successfully processed: Bharat_Balaji_1Jan24_23Feb24.pdf
+2024-11-05 20:43:21,870 - INFO - Processing bank folder: SBI_BANK
+2024-11-05 20:43:21,876 - INFO - Successfully processed: Mar-24.pdf
+2024-11-05 20:43:21,876 - INFO - Processing bank folder: SC_BANK
+2024-11-05 20:43:21,936 - INFO - Successfully processed: Apr-22 SC Bank Statement.pdf
+2024-11-05 20:43:21,936 - INFO - Processing bank folder: Union_BANK
+2024-11-05 20:43:21,947 - INFO - Successfully processed: Copy of Copy of Bank Statement Union Bank Dec.pdf
+2024-11-05 20:43:21,948 - INFO - Processing bank folder: IDFC_BANK
+2024-11-05 20:43:21,960 - INFO - Successfully processed: IDFCFIRSTBankstatement_10083065412_155547128.pdf
+2024-11-05 20:43:21,960 - INFO - Processing bank folder: PNB_BANK
+2024-11-05 20:43:21,983 - INFO - Successfully processed: Copy of pnbbank.pdf
+2024-11-05 20:43:21,983 - INFO - Processing bank folder: HDFC_BANK
+2024-11-05 20:43:21,993 - INFO - Successfully processed: 27JAN24_23FEB24_HDFC_BALAJI.pdf
+2024-11-05 20:43:21,993 - INFO - Processing bank folder: BOM_BANK
+2024-11-05 20:43:22,000 - INFO - Successfully processed: bom.pdf
+2024-11-05 20:43:22,000 - INFO - Processing bank folder: YES_BANK
+2024-11-05 20:43:22,009 - INFO - Successfully processed: yesbank.pdf
+2024-11-05 20:43:22,035 - INFO - Successfully processed: Yes bank (1).pdf
+2024-11-05 20:43:22,035 - INFO - Processing bank folder: ICICI_BANK
+2024-11-05 20:43:22,036 - WARNING - Skipping password-protected PDF: Statement_DEC2023_777705907080.pdf
+2024-11-05 20:43:22,043 - INFO - Successfully processed: Copy of ICICI 9727 acc statement.pdf
+2024-11-05 20:43:22,043 - INFO - Processing bank folder: TJSB_BANK
+2024-11-05 20:43:22,051 - INFO - Successfully processed: Copy of Copy of TJSB.pdf
+2024-11-05 20:43:22,051 - INFO - Processing bank folder: Canara_BANK
+2024-11-05 20:43:22,057 - INFO - Successfully processed: BCCB-1 (1).pdf
+2024-11-05 20:43:22,067 - INFO - Successfully processed: Canara 2 format .pdf
+2024-11-05 20:43:22,067 - INFO - Processing bank folder: BASSEIN_CATHOLIC_BANK
+2024-11-05 20:43:22,143 - INFO - Successfully processed: BASSEIN CATHOLIC.pdf
+2024-11-05 20:43:22,143 - INFO - Processing bank folder: KOTAK_BANK
+2024-11-05 20:45:00,054 - INFO - Processing bank folder: AXIS_BANK
+2024-11-05 20:45:00,092 - INFO - Successfully processed: AXIS_STATEMENT_CLOSURE_X940.pdf
+2024-11-05 20:45:00,103 - INFO - Successfully processed: Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf
+2024-11-05 20:45:00,103 - INFO - Processing bank folder: NKGSB_BANK
+2024-11-05 20:45:00,133 - INFO - Successfully processed: Copy of Copy of NKGSB.pdf
+2024-11-05 20:45:00,133 - INFO - Processing bank folder: BOI_BANK
+2024-11-05 20:45:00,134 - WARNING - Skipping password-protected PDF: 1602202413233700_97675273.pdf
+2024-11-05 20:45:00,134 - INFO - Processing bank folder: IDBI_BANK
+2024-11-05 20:45:00,138 - INFO - Successfully processed: IDBI APRL.pdf
+2024-11-05 20:45:00,138 - INFO - Processing bank folder: BHARAT_BALAJI_BANK
+2024-11-05 20:45:00,152 - INFO - Successfully processed: AccountStatement_Evolve - 2023-12-27T134118.679.pdf
+2024-11-05 20:45:00,211 - INFO - Successfully processed: Bharat_Balaji_1Jan24_23Feb24.pdf
+2024-11-05 20:45:00,211 - INFO - Processing bank folder: SBI_BANK
+2024-11-05 20:45:00,218 - INFO - Successfully processed: Mar-24.pdf
+2024-11-05 20:45:00,219 - INFO - Processing bank folder: SC_BANK
+2024-11-05 20:45:00,283 - INFO - Successfully processed: Apr-22 SC Bank Statement.pdf
+2024-11-05 20:45:00,283 - INFO - Processing bank folder: Union_BANK
+2024-11-05 20:45:00,293 - INFO - Successfully processed: Copy of Copy of Bank Statement Union Bank Dec.pdf
+2024-11-05 20:45:00,294 - INFO - Processing bank folder: IDFC_BANK
+2024-11-05 20:45:00,306 - INFO - Successfully processed: IDFCFIRSTBankstatement_10083065412_155547128.pdf
+2024-11-05 20:45:00,306 - INFO - Processing bank folder: PNB_BANK
+2024-11-05 20:45:00,330 - INFO - Successfully processed: Copy of pnbbank.pdf
+2024-11-05 20:45:00,331 - INFO - Processing bank folder: HDFC_BANK
+2024-11-05 20:45:00,341 - INFO - Successfully processed: 27JAN24_23FEB24_HDFC_BALAJI.pdf
+2024-11-05 20:45:00,341 - INFO - Processing bank folder: BOM_BANK
+2024-11-05 20:45:00,348 - INFO - Successfully processed: bom.pdf
+2024-11-05 20:45:00,348 - INFO - Processing bank folder: YES_BANK
+2024-11-05 20:45:00,357 - INFO - Successfully processed: yesbank.pdf
+2024-11-05 20:45:00,383 - INFO - Successfully processed: Yes bank (1).pdf
+2024-11-05 20:45:00,383 - INFO - Processing bank folder: ICICI_BANK
+2024-11-05 20:45:00,384 - WARNING - Skipping password-protected PDF: Statement_DEC2023_777705907080.pdf
+2024-11-05 20:45:00,391 - INFO - Successfully processed: Copy of ICICI 9727 acc statement.pdf
+2024-11-05 20:45:00,391 - INFO - Processing bank folder: TJSB_BANK
+2024-11-05 20:45:00,399 - INFO - Successfully processed: Copy of Copy of TJSB.pdf
+2024-11-05 20:45:00,399 - INFO - Processing bank folder: Canara_BANK
+2024-11-05 20:45:00,405 - INFO - Successfully processed: BCCB-1 (1).pdf
+2024-11-05 20:45:00,415 - INFO - Successfully processed: Canara 2 format .pdf
+2024-11-05 20:45:00,415 - INFO - Processing bank folder: BASSEIN_CATHOLIC_BANK
+2024-11-05 20:45:00,489 - INFO - Successfully processed: BASSEIN CATHOLIC.pdf
+2024-11-05 20:45:00,489 - INFO - Processing bank folder: KOTAK_BANK

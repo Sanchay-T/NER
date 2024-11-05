@@ -1,0 +1,364 @@
+[
+  {
+    "text": "SHUCHI LALIT AGARWAL\nJoint Holder :- LALIT NARSINGDAS AGARWAL\nC-103 RAJMANDIR COMPLEX CHS LTD\nHATKESH\nTHANENEAR POSH COMPLEX\nTHANE\nCustomer ID :904770906\nMAHARASHTRA\nIFSC Code :UTIB0004251\n401107\nMICR Code :400211193\nNominee Registered : N\nRegistered Mobile No :XXXXXX3778\nRegistered Email ID:XXXXAXXXXIT@BALAJIPC.COM\nPAN :AOYPA7337J\nScheme :HL SUPER SAVER FLOATING\nStatement of Account No :922030062234940 for the period (From : 01-04-2023 To : 31-03-2024)",
+    "entities": [
+      {
+        "text": "922030062234940",
+        "start": 391,
+        "end": 406,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "SHUCHI LALIT AGARWAL",
+        "start": 0,
+        "end": 20,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "AXIS_STATEMENT_CLOSURE_X940.pdf",
+      "bank": "AXIS_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/AXIS_BANK/AXIS_STATEMENT_CLOSURE_X940.pdf"
+    }
+  },
+  {
+    "text": "CHOICE SUPER SHOPEE\nJoint Holder :- -\nGROUND FLOOR SHOP NO G-27 NANDED CITY\nSINHGAD ROAD DESTINATION CENTER\nSINHGAD ROAD\nPUNE\nCustomer ID :910347562\nMAHARASHTRA-INDIA\nIFSC Code :UTIB0000104\nPIN411041\nMICR Code :411211004\nCurrency :INR\nNominee Registered : N\nScheme :CA - BUSINESS ADVANTAGE\nCKYC NUMBER :XXXXXXXXXX8232\nStatement of Axis Account No :921020049852767 for the period (From : 20-12-2023 To : 13-03-2024)",
+    "entities": [
+      {
+        "text": "921020049852767",
+        "start": 348,
+        "end": 363,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "CHOICE SUPER SHOPEE",
+        "start": 0,
+        "end": 19,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf",
+      "bank": "AXIS_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/AXIS_BANK/Axis 3rd Jan 24 to 9th March 24 Account No ( 2767 ).pdf"
+    }
+  },
+  {
+    "text": "ACCOUNT STATEMENT\nMEDIA FREQUENCY\nAccount No : 001712100034531 Mira Road (E) Branch\n 218 (A), A Wing, Shanti Commercial Complex, Thn 401107\n MICR 400112018 IFSC BCBM0000018\nB-17/202, Rashmi Shanti Vidyanagri Chs Ltd Next To Gcc Club, Mira Bhyander Road Mira Road East Thn 401107\n From 01-Dec-2022 to 01-Dec-2023 | Opening Balance as on : 01-Dec-2022\n24,146.62 CR\nNOMINATION REGISTERED\nTRAN DT\nVALUE DT",
+    "entities": [
+      {
+        "text": "001712100034531",
+        "start": 47,
+        "end": 62,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "MEDIA FREQUENCY",
+        "start": 18,
+        "end": 33,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "AccountStatement_Evolve - 2023-12-27T134118.679.pdf",
+      "bank": "BHARAT_BALAJI_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/BHARAT_BALAJI_BANK/AccountStatement_Evolve - 2023-12-27T134118.679.pdf"
+    }
+  },
+  {
+    "text": "From: 01/01/2024 To: 23/02/2024\nAccount - CAA- BALAJI INF (INR) - 001712100018010\nBHARAT CO-OPERATIVE BANK (MUMBAI) LTD\nTRAN\nDT",
+    "entities": [
+      {
+        "text": "001712100018010",
+        "start": 66,
+        "end": 81,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "BALAJI INF",
+        "start": 47,
+        "end": 57,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Bharat_Balaji_1Jan24_23Feb24.pdf",
+      "bank": "BHARAT_BALAJI_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/BHARAT_BALAJI_BANK/Bharat_Balaji_1Jan24_23Feb24.pdf"
+    }
+  },
+  {
+    "text": "Account Name : Mr. RAHUL HANAMANT PALEKAR\nAddress : GANESH NAGAR\n SOLT PEN ROAD\n WADAL MUMBAI 400037-400037\n Mumbai",
+    "entities": [
+      {
+        "text": "",
+        "start": 0,
+        "end": 0,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "Mr. RAHUL HANAMANT PALEKAR",
+        "start": 15,
+        "end": 41,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Mar-24.pdf",
+      "bank": "SBI_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/SBI_BANK/Mar-24.pdf"
+    }
+  },
+  {
+    "text": "Statement of Account\nHONEST GIFTS SOLUTIONS\nA 502 SALASAR AANGAN MIRA RD NR PRATHMESH\nASHISH KANAKIA RD MIRA RD THANE\nMUMBAI\nMAHARASHTRA\nINDIA\n401107\n919702246282\nPREETPARAKH@GMAIL.COM",
+    "entities": [
+      {
+        "text": "919702246282",
+        "start": 150,
+        "end": 162,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "HONEST GIFTS SOLUTIONS",
+        "start": 21,
+        "end": 43,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Copy of Copy of Bank Statement Union Bank Dec.pdf",
+      "bank": "Union_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/Union_BANK/Copy of Copy of Bank Statement Union Bank Dec.pdf"
+    }
+  },
+  {
+    "text": "STATEMENT OF ACCOUNT\nCUSTOMER ID\n:\n5850957259\nACCOUNT NO\n:\n10083065412\nSTATEMENT PERIOD\n:\n2024-01-01 TO 2024-02-20\nCUSTOMER NAME\n:\nS K ALI ART\nCOMMUNICATION \nADDRESS\n:\nR NO 1 C PLOT NO 9 GNS\nMARWE ROAD COLLECTOR\nCOMPOUND MALAD WEST NEAR\nARFA SWEET Mumbai -\n400095\nEMAIL ID\n:\nA*********1@gmail.com\nPHONE NO\n:\n********0874\nNOMINATION\n:\nNot Registered\nACCOUNT BRANCH : MUMBAI- WORLD ONE-LOWER\nPAREL BRANCH\nBRANCH ADDRESS : UNIT NO.6,THE WORLD ONE\nBUILDING, LODHA WORLD\nTOWERS, LOWER PAREL\n400013\nIFSC\n:\nIDFB0040171\nMICR\n:\n400751039",
+    "entities": [
+      {
+        "text": "10083065412",
+        "start": 59,
+        "end": 70,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "S K ALI ART",
+        "start": 131,
+        "end": 142,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "IDFCFIRSTBankstatement_10083065412_155547128.pdf",
+      "bank": "IDFC_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/IDFC_BANK/IDFCFIRSTBankstatement_10083065412_155547128.pdf"
+    }
+  },
+  {
+    "text": "Account Statement For Account:10601012000562\nBranch Details\nBranch Name:\nMUMBAI-GHATKOPAR(EAST)\nGARODIA NGR GHATKOPAR\nBank Address:\n177, RAMANI SADAN\nCity:\nMUMBAI\nPin:\n400077\nIFSC Code:\nPUNB0106010\nMICR Code :\n400024142\nCustomer Details\nCustomer Name:\nAAREY MILK CENTER\nJoint Account Holder 1:\nJoint Account Holder 2:\nJoint Account Holder 3:\nCustomer Address:\nSHOP NO 2753 AT CORNER FRONT RAMANI SADAN\nPLOT NO177 OPP BHAJANA SAMAJ GARODIA NAGAR90F\nCity:\nMUMBAI\nPin:\n400077\nNominee :\nStatement Period :\n01/05/2021\nto\n18/11/2021",
+    "entities": [
+      {
+        "text": "10601012000562",
+        "start": 30,
+        "end": 44,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "AAREY MILK CENTER",
+        "start": 252,
+        "end": 269,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Copy of pnbbank.pdf",
+      "bank": "PNB_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/PNB_BANK/Copy of pnbbank.pdf"
+    }
+  },
+  {
+    "text": "Customer Details\nMrs. KASHMIRA VIRENDRA DESAI\nMr. VIRENDRA SUSHIL DESAI\n1703 TULSIBAUG CHS\nCHANDAVARKAR ROAD\nRAMDAS SUTRALE ROAD\nBORIVALI WEST MUMBAI - 400092\nMaharashtra, null\nMobile : 919987859301\nEmail : kashmira22desai@gmail.com",
+    "entities": [
+      {
+        "text": "KASHMIRA VIRENDRA DESAI",
+        "start": 22,
+        "end": 45,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "BOM_Statement (1).PDF",
+      "bank": "BOM_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/BOM_BANK/BOM_Statement (1).PDF"
+    }
+  },
+  {
+    "text": "A. Statement for Account No 68001042525 from 01/04/2023 to 31/03/2024\n \nAccount Details\nAccount No\n68001042525",
+    "entities": [
+      {
+        "text": "68001042525",
+        "start": 28,
+        "end": 39,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "",
+        "start": 0,
+        "end": 0,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "bom.pdf",
+      "bank": "BOM_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/BOM_BANK/bom.pdf"
+    }
+  },
+  {
+    "text": "1. Statement of account: 007891900017804\n2. Period: 24 Mar 2021 - 21 Apr 2021\nMADAN SINGH ZABERSINGH\nRATHORE\nFLAT NO301/B NARMADA\nABHISHEK\nBUILDING A B NARMAADA\nNAGAR RD NEAR\nSIMA INDUSTRIAL ESTATE\nBHAYANDED\nTHANE 401105\nMAHARASHTRA INDIA\nMobile No:Registered\nEmail:Registered\nCust ID: 18087166\nYour Branch details:\nName: ANDHERI (E), MUMBAI\nAddress:GR FLR,SHRI AMBA SHANTI CHAMBERS\nOPP HOTEL LEELA\nANDHERI KURLA ROAD, ANDHERI (E)\nMAHARASHTRA\nINDIA\nIFSC Code: YESB0000078\nMICR code: 400532010",
+    "entities": [
+      {
+        "text": "007891900017804",
+        "start": 25,
+        "end": 40,
+        "label": "ACC_NO"
+      }
+    ],
+    "metadata": {
+      "filename": "yesbank.pdf",
+      "bank": "YES_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/YES_BANK/yesbank.pdf"
+    }
+  },
+  {
+    "text": "Statement of account: 000191600000324\nPeriod: 01 Dec 2021 - 31 Mar 2022\nSUJAYA BANERJEE\n1002 MAHALAXMI HEIGHT\nK K MARG\nMAHALAXMI\nMUMBAI 400034\nMAHARASHTRA INDIA\nMobile No: Registered\nEmail: Registered\nCust ID: 2820870\nYour Branch details:\nName: WORLI\nAddress: GR & 1st FLR, MOTI MAHAL, DR. ANNIE\nBEASANT RD, NEXT TO CITY BAKERY\nWORLI, MUMBAI, MAHARASHTRA 400018\nMAHARASHTRA\nINDIA\nIFSC Code: YESB0000001\nMICR Code: 400532002",
+    "entities": [
+      {
+        "text": "000191600000324",
+        "start": 22,
+        "end": 37,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "SUJAYA BANERJEE",
+        "start": 72,
+        "end": 87,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Yes bank (1).pdf",
+      "bank": "YES_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/YES_BANK/Yes bank (1).pdf"
+    }
+  },
+  {
+    "text": "DETAILED STATEMENT\nSearch\nAccount Number\n634301509727(INR) - SANKARDEV CHOWDHURY",
+    "entities": [
+      {
+        "text": "634301509727",
+        "start": 41,
+        "end": 53,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "SANKARDEV CHOWDHURY",
+        "start": 61,
+        "end": 80,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Copy of ICICI 9727 acc statement.pdf",
+      "bank": "ICICI_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/ICICI_BANK/Copy of ICICI 9727 acc statement.pdf"
+    }
+  },
+  {
+    "text": "TJSB Sahakari Bank Limited\nBranch :\nVASHI-SECTOR 17 BRANCH\nName :\nCHAURASIYA RAMESH RAMDEEN\n15 Digit Account No :\nIFSC Code :\nTJSB0000012\nXXXXXXXXXXX6452\n*230101100135215890*\nRegistered Address :\n102/2,SAI DARSHAN SOC, V N MARG, KAMRAJ \nNAGAR, GHATKOPAR EAST\nMUMBAI - 400077 , \nMAHARASHTRA\nBranch Address :\nGALA NO. 1 , PLOT NO. 51 APSARA \nBUILDING. SECTOR NO. 17 VASHI, \nNAVI MUMBAI.\nVASHI - 400703 , \nMAHARASHTRA",
+    "entities": [
+      {
+        "text": "230101100135215890",
+        "start": 155,
+        "end": 173,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "CHAURASIYA RAMESH RAMDEEN",
+        "start": 66,
+        "end": 91,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Copy of Copy of TJSB.pdf",
+      "bank": "TJSB_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/TJSB_BANK/Copy of Copy of TJSB.pdf"
+    }
+  },
+  {
+    "text": "Account Statement\nAccount Number\n: 010100100018080\nCustomer Name\n: NIKHIL ARVIND ZAVERI\nAddress\n: SHOP NO 1 OOP CORPORATION BANK VIRA\nR WEST VIRAR 401301 MAHARASHTRA\nIFSC Code / MICR Code\n: BACB0000010 / 400238010",
+    "entities": [
+      {
+        "text": "010100100018080",
+        "start": 35,
+        "end": 50,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "NIKHIL ARVIND ZAVERI",
+        "start": 67,
+        "end": 87,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "BCCB-1 (1).pdf",
+      "bank": "Canara_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/Canara_BANK/BCCB-1 (1).pdf"
+    }
+  },
+  {
+    "text": "Page 1 of 3 \nNIPA C BHAVSAR\nD 1301 PANCHSHEEL HEIGHTS\nMAHAVIR NAGAR\nKANDIVALI WEST\nMUMBAI\nAccount Statement as of 18-08-2021 16:04:23 GMT +0530\nCustomer Name\nNIPA C BHAVSAR\nBranch\nMUMBAI MAHAVIR NAGAR\nSearched by : Specify Period\n18-08-2020 to 17-08-2021\nAccount Number\n2899101005524 \nCustomer Id\n64182078\nMICR CODE\n400015136\nIFSC CODE\nCNRB0002899\nAccount Currency\nINR\nBalance B/F\n2,06,911.94\nClosing Balance\n1,06,373.36",
+    "entities": [
+      {
+        "text": "2899101005524",
+        "start": 270,
+        "end": 283,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "NIPA C BHAVSAR",
+        "start": 13,
+        "end": 27,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "Canara 2 format .pdf",
+      "bank": "Canara_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/Canara_BANK/Canara 2 format .pdf"
+    }
+  },
+  {
+    "text": "SAURABH SHYAMSUNDAR KASAT\nPeriod\n24-07-2023 to 31-12-2023\nCust.Reln.No\n756498608\nAccount No\n5648217254\nCurrency\nINR\nBranch\nBHAYANDER(W)",
+    "entities": [
+      {
+        "text": "5648217254",
+        "start": 92,
+        "end": 102,
+        "label": "ACC_NO"
+      },
+      {
+        "text": "SAURABH SHYAMSUNDAR KASAT",
+        "start": 0,
+        "end": 25,
+        "label": "PER"
+      }
+    ],
+    "metadata": {
+      "filename": "CPSPM_40108290_1704838422.PDF",
+      "bank": "KOTAK_BANK",
+      "path": "/Users/sanchaythalnerkar/NER/SHORT_PAGES_BANK_STATEMENTS -2/KOTAK_BANK/CPSPM_40108290_1704838422.PDF"
+    }
+  }
+]
