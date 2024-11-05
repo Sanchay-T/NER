@@ -17,3 +17,5 @@ class ProcessedDocument:
     entities: List[ExtractedEntity]
     metadata: Dict
     error: Optional[str] = None
+    header_text: Optional[str] = None
+    header_file_path: Optional[str] = None

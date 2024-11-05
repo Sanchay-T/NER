@@ -6,7 +6,7 @@ def main():
     processor = PDFProcessor(model_path="models/output_ner_model")
     
     # Process single PDF
-    pdf_path = "data/pdfs/sample.pdf"
+    pdf_path = "kotak.pdf"
     result = processor.process_single_pdf(pdf_path)
     
     # Print results

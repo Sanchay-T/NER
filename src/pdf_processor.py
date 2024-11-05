@@ -5,6 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Union, Dict, List
 from .data_models import ExtractedEntity, ProcessedDocument
+import re
 
 class PDFProcessor:
     def __init__(self, model_path: str = "output_ner_model"):
@@ -51,7 +52,9 @@ class PDFProcessor:
                     "account_number": extracted_data["account_number"],
                     "person_name": extracted_data["person_name"],
                     "file_path": str(pdf_path.absolute())
-                }
+                },
+                header_text=extracted_data.get("header_text"),
+                header_file_path=extracted_data.get("header_file_path")
             )
             
             # Store processed document
@@ -141,34 +144,58 @@ class PDFProcessor:
         }
 
     def _extract_text_from_pdf(self, pdf_path: Path) -> Dict:
-        """Extract text from PDF and perform initial preprocessing"""
         try:
-            # Open PDF with PyMuPDF (fitz)
+            print(f"Starting to process PDF: {pdf_path}")
+            
             doc = fitz.open(pdf_path)
-            raw_text = ""
-            
-            # Extract text from all pages
-            for page in doc:
-                raw_text += page.get_text()
-            
+            first_page = doc[0]
+            first_page_text = first_page.get_text()
             doc.close()
             
-            # Basic preprocessing
-            preprocessed_text = raw_text.strip()
+            table_indicators = [
+                r"Date\s+Dr Amount\s+Cr Amount\s+Total Amount",  
+                r"Date\s+Particulars\s+Instruments",  
+                r"\d{2}[-/]\d{2}[-/]\d{4}\s+\d+\.\d{2}\s+",  
+                r"Opening Balance.*?Closing Balance",
+                r"Transaction Details:"
+            ]
+
+            # Find where table starts
+            table_start_pos = len(first_page_text)
+            matched_pattern = None
             
-            # Initialize default values
-            account_number = ""
-            person_name = ""
+            for pattern in table_indicators:
+                match = re.search(pattern, first_page_text, re.IGNORECASE | re.MULTILINE)
+                if match and match.start() < table_start_pos:
+                    table_start_pos = match.start()
+                    matched_pattern = pattern
+                    print(f"Found table start with pattern: {pattern}")
+                    print(f"At position: {table_start_pos}")
+                    print(f"Text around match point:\n{first_page_text[max(0, table_start_pos-50):table_start_pos+50]}")
+
+            # Get header content
+            header_content = first_page_text[:table_start_pos].strip()
             
-            # TODO: Add specific logic to extract account number and person name
-            # This would depend on your bank statement format
+            # Create output directory and save
+            output_dir = Path("extracted_text")
+            output_dir.mkdir(exist_ok=True)
+            text_file_path = output_dir / f"{pdf_path.stem}_header.txt"
+            
+            with open(text_file_path, 'w', encoding='utf-8') as f:
+                f.write(header_content)
+            
+            print(f"\nExtracted header length: {len(header_content)}")
+            print(f"First 100 chars: {header_content[:100]}")
+            print(f"Last 100 chars: {header_content[-100:]}")
             
             return {
-                "raw_text": raw_text,
-                "preprocessed_text": preprocessed_text,
-                "account_number": account_number,
-                "person_name": person_name
+                "raw_text": header_content,
+                "preprocessed_text": header_content,
+                "account_number": "",
+                "person_name": "",
+                "extracted_file_path": str(text_file_path)
             }
-            
+                
         except Exception as e:
+            print(f"Error occurred: {str(e)}")
             return {"error": f"Failed to extract text from PDF: {str(e)}"}
